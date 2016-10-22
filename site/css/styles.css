@@ -69,6 +69,10 @@ body {
 #main-content a:hover, #main-content a:focus {
   text-decoration: none;
 }
+#main-content {
+  color: #000;
+  font-weight: bolder;
+}
 /* END HOME PAGE */
 
 /********** Large devices only **********/

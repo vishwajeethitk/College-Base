@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Base</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>College Base</h1></a>
+            <p>
+              <span>Relive Classroom Online</span>
+            </p>
+          </div><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Routine</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-duplicate"></span><br class="hidden-xs"> Notes</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Message</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs"> News</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-blackboard"></span><br class="hidden-xs"> Discussions</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  <div id="main-content" class="container"><br>
+    <div class="row">
+        <div class="col-lg-4 col-md-3.5 col-sm-3 col-xs-1"></div>
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-10">
+          <button id="studentclick" type="button" class="btn btn-block btn-primary">
+            <h5>Signup as a Student</h5>
+          </button>
+        </div>
+        <div class="col-lg-4 col-md-3.5 col-sm-3 col-xs-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+        <div id="student" class="col-lg-8 col-md-8 col-sm-8 col-xs-10">
+          <br>
+          <form id="studentsignup">
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Name </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="name" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Stream </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="stream" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Section </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="section" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Year </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="year" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Roll </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="roll" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Password </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="password" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Retype Password </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="repassword" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Email </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="email" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Mobile </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="mobile" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Class Representative </h5>
+                </div>
+                <div class="checkbox col-lg-4 col-md-5 col-sm-6 col-xs-5" align="center">
+                  <input id="cr" type="checkbox" value="">
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" align="right">
+                  <button type="submit" class="btn btn-block btn-primary"><h5>Signup</h5></button>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+              </div>
+              </form>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-lg-4 col-md-3.5 col-sm-3 col-xs-1"></div>
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-10">
+          <button id="facultyclick" type="button" class="btn btn-block btn-primary">
+            <h5>Signup as a Faculty</h5>
+          </button>
+        </div>
+        <div class="col-lg-4 col-md-3.5 col-sm-3 col-xs-1"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+        <div id="faculty" class="col-lg-8 col-md-8 col-sm-8 col-xs-10">
+          <form id="facultysignup">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Name </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="namefaculty" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>ID </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="idfaculty" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Password </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="passwordfaculty" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Retype Password </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="repasswordfaculty" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Email </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="emailfaculty" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5" align="right">
+                  <h5>Mobile </h5>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-5">
+                  <input id="mobilefaculty" type="text" name="" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-xs-1"></div>
+              </div><br>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" align="right">
+                  <button type="submit" class="btn btn-block btn-primary"><h5>Signup</h5></button>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+              </div>
+          </form>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
+    </div><br>
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
