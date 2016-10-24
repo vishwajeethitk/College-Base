@@ -183,7 +183,7 @@ $(document).ready(function(e) {
             e.preventDefault();
         }
 		else if (!(/^[A-Z]+$/.test(ftid))) {
-			alert('Name should have only uppercase characters');
+			alert('ID should have only uppercase characters');
 			$("#idfaculty").focus();
 			e.preventDefault();
 		}
