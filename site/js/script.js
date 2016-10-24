@@ -119,7 +119,9 @@ $(document).ready(function(e) {
 		var repass = $("#repassword").val();
 		if (pass != repass) {
 			alert("Passwords don't match");
-			$("#repassword").focus();
+			var msg = "";
+			$("#repassword").val(msg);
+			$("#password").focus();
 			e.preventDefault();
 		}
 	});
@@ -140,7 +142,9 @@ $(document).ready(function(e) {
 		var repass = $("#repasswordfaculty").val();
 		if (pass != repass) {
 			alert("Passwords don't match");
-			$("#repasswordfaculty").focus();
+			var msg = "";
+			$("#repasswordfaculty").val(msg);
+			$("#passwordfaculty").focus();
 			e.preventDefault();
 		}
 	});
