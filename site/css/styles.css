@@ -73,6 +73,10 @@ body {
   color: #000;
   font-weight: bolder;
 }
+#main-content span {
+  color: red;
+  font-size: 0.8em;
+}
 /* END HOME PAGE */
 
 /********** Large devices only **********/
